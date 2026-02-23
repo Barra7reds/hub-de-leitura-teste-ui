@@ -34,4 +34,5 @@ describe('Funcionalidade: Cadastro de leitura', () => {
         cy.get('#user-name').should('contain', nome)
     });
 
+    
 });
