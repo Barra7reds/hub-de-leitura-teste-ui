@@ -40,7 +40,7 @@ describe('Funcionalidade: Cadastro de leitura', () => {
         cy.url().should('include', 'dashboard')
     });
 
-    it.only('Deve validar mensagens ao tentar cadastrar sem preencher o nome', () => {
+    it('Deve validar mensagens ao tentar cadastrar sem preencher o nome', () => {
         cadastroPage.preencherCadastro ('', ``, '11992299999', 'teste123', 'teste123')
         cy.get(':nth-child(1) > .invalid-feedback').should('contain', 'Nome deve ter pelo menos 2 caracteres')
         cy.get('#register-form > :nth-child(2) > .invalid-feedback').should('contain', 'Email válido é obrigatório')
