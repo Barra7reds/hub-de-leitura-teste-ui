@@ -12,7 +12,16 @@
 {
     "Livro": "O Hobbit",
     "Categoria": "Aventura"
-} 
+},
+{
+    "Livro": "O Alquimista",
+    "Categoria": "ficção"
+},
+
+{
+    "Livro": "O Pequeno Príncipe",
+    "Categoria": "Infantil"
+}
 
 
 ]
