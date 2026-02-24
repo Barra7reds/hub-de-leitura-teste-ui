@@ -18,6 +18,7 @@ describe('Funcionalidade: Cadastro de leitura', () => {
         cy.get('#terms-agreement').click()
         cy.get('#register-btn').click()
         cy.url().should('include', 'dashboard')
+        // Falhando de propósito para validar o vídeo de falha - "dashboard"
     });
 
 
